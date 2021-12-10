@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/avens_pairsim -n .:../src $*
+# for shared lib, use: opp_run -l ../src/avens_pairsim -n .:../src $*

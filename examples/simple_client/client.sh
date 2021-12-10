@@ -1,0 +1,1 @@
+clear && g++ client.cpp -o client -std=c++2a -fconcepts -lpthread -lnng -Iinclude -I../include -Wall
